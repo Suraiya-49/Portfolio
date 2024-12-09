@@ -1,0 +1,601 @@
+body{
+   margin: 0;
+}
+.navbar{
+    background: #d35400;
+    width: 100%;
+}
+.logo a img{
+    width: 30%;
+    padding-top: 6px;
+}
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.menu-area{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.menu ul{
+    display: flex;
+    margin: 0;
+
+}
+.menu ul li{
+    list-style: none;
+
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    font-size: 22px;
+}
+.logo h2{
+    color: aqua;
+    font-size: 31px;
+    margin: 10px 0 0 0 ;
+    
+}
+.menu ul li a:hover{
+    background:black;
+    
+}
+.profile{
+    padding: 100px 0;
+	height: auto;
+	width: 100%;
+	background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("./still-life-books-versus-technology.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+   
+}
+
+.profile-picture img{
+    width: 60%;
+    height: 70%;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 5px solid #e67e22;
+    background-color: rgb(14, 14, 20);
+}
+    
+.information{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.profile-picture{
+    text-align: center;
+    width: 50%;
+}
+.profile-info{
+    width: 50%;
+    
+}
+.profile-info h2{
+    font-size: 35px;
+    color: whitesmoke;
+}
+.profile-info p{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+.profile-info button{
+    cursor: pointer;
+    background-color: #ff7f3f;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    
+    width: 40%;
+
+    font-weight: bold;
+    font-size: 20px;
+    font-family:  Tahoma;
+    color: white;
+ 
+}
+.about{
+    background-color: #ce2929;
+    width: 100%;
+
+    padding: 100px 0px;
+    font-size:25px;
+    color: whitesmoke;
+   
+}
+.about h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+.info-pic-text{
+    display: flex;
+
+}
+.info-pic-text  .about-picture img{
+    height: 300px;
+    width: 260px;
+    border-radius: 15px;
+
+}
+.info-pic-text  .about-picture {
+    width: 50%;
+}
+.info-pic-text.about-text{
+    width: 50%;
+    text-align: left;
+    
+}
+.info-pic-text.about-text h3{
+
+}
+.info-pic-text.about-text p{
+}
+
+
+
+.about-btn{
+    width: 45%;
+   display: flex;
+   justify-content: space-between;
+   
+   
+ 
+}
+
+.about-btn button{
+    width: 40%;
+    height: 15%;
+    color: #1abc9c;
+    border-radius: 10px;
+    border: none;
+    background-color: #110f0f;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    
+}
+.hire-me{
+    text-align: center;
+}
+ .about-header hr{
+    width: 15%;
+    margin: 0 auto;
+    border-bottom: 4px solid white;
+}
+.profile-info button:hover{
+    background: rgb(143, 116, 116);
+}
+.about-text button:hover{
+    background:rgb(87, 115, 175);
+}
+.service{
+    background: #1abc9c;
+    width: 100%;
+    padding: 50px 0;
+    margin: 0;
+}
+.jkl{
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+.service-design{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 2px;
+}
+.service-web1{
+    width: 30%;
+    text-align: center;
+}
+.web-header{
+    display:flex;
+}
+.web-header h2{
+ margin-left: 10px;
+ 
+}
+.web-icon {
+    display: flex;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.web-bottom{
+    display: flex;
+   
+}
+.web-middle{
+    display: flex;
+}
+
+
+.responsive ul{
+    background-color: #110f0f;
+}
+
+.responsive{
+    margin-top: 0;
+	height: 100%;
+	padding: 0;
+	width: 50%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	background:rgb(7, 7, 7);
+	backdrop-filter: blur(10px);
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.responsive li{
+	width: 100%;
+	border-bottom: 1px solid white;
+	list-style-type: none;
+}
+.responsive li:hover{
+	background: skyblue;
+	color: black;
+}
+.responsive li a{
+	text-decoration: none;
+	color: white;
+	padding: 22px 20px;
+	display: block;
+	text-transform: capitalize;
+}
+
+.bars{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	background: rgb(13, 189, 196);
+    display: none;
+}
+.bars li{
+	list-style-type: none;
+}
+.bars li a{
+	display: block;
+	padding: 14px 30px;
+	font-weight: normal;
+	font-size: 30px;
+	color: white;
+}
+
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #4b0cdf;
+    font-size:2rem;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea, button {
+    display: flex;
+    text-align:start;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #6b46c1;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .container button {
+    background-color: rgb(80, 80, 155);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%;
+    
+
+  }
+  
+  button:disabled {
+    background-color: #9c88ff;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #2a16e2;
+  }
+  
+  .toast {
+    visibility: hidden;
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+  }
+  
+  .toast.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @keyframes fadein {
+    from {
+      top: 0;
+      opacity: 0;
+    }
+    to {
+      top: 20px;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeout {
+    from {
+      top: 20px;
+      opacity: 1;
+    }
+    to {
+      top: 0;
+      opacity: 0;
+    }
+  }
+  .table-container {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .header-row {
+    background-color: #6b46c1;
+    color: white;
+  }
+  
+  tr:hover {
+    background-color: #9c88ff;
+    color: white;
+  }
+  
+  .error-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  footer{
+    width: 100%;
+    height: 50px;
+    background-color:#7efff5;
+    display: flex;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding-top: 20px;
+    
+
+}
+#contactForm{
+    width: 100%;
+    padding-left: 30px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+#contactForm button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #15d68c;
+}
+.contact-header{
+background-color:white;
+
+}
+.container contact-container{
+    background-color: white;
+}
+.title{
+    color: #15d68c;
+}
+button a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    
+}
+button{
+    background-color:#d35400;
+
+}
+
+
+label{
+    color: #15d68c;
+}
+
+
+
+
+
+
+
+@media all and (max-width:800px){
+
+    .container{
+		width: 90%;
+	}
+	.bars{
+	display: block;
+	}
+    .menu{
+        display: none;
+    }
+    .responsive{
+        display: block;
+    }
+	.logo{
+		width: 100%;
+		text-align: center;
+		padding:8spx 0;
+	}
+    .information{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-picture{
+        width: 100%;
+        text-align: center;
+    }
+    .profile-info{
+        width: 100%;
+        text-align: center;
+    }
+    .info-pic-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-pic-text .about-picture{
+        width: 100%;
+        text-align: center;
+    }
+    .about-text{
+        width: 100%;
+        text-align: center;
+    }
+    .about-header{
+        margin-bottom: 50px;
+    }
+    .service-design{
+        display: flex;
+        flex-direction: column;
+    }
+    .service-web1{
+        width: 70%;
+        margin: 30px auto;
+    }
+    .web-header{
+        text-align: center;
+        justify-content: center;
+    }
+    .web-middle{
+        text-align: center;
+        justify-content: center;
+    }
+    .web-bottom{
+        text-align: center;
+        justify-content: center; 
+    }
+    .form form{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .form{
+        width: 80%;
+        padding: 40px 30px;
+    }
+    #contactForm{
+        padding-left: 5px;
+    }
+    #contactForm button{
+        display: flex;
+       
+        width: 110px;
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

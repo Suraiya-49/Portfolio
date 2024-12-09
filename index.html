@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Portfolio</title>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="main-container">
+            <div class="menu-area">
+                <div class="logo">
+                    <a href=""><img src="./Suraiya-designstyle-boots-m.png" alt=""></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="#aboutme">About</a>
+                        </li>
+                        <li>
+                            <a href="#serviceme">Services</a>
+                        </li>
+                        <li>
+                            <a href="#contactme">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul class="responsive">
+
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="#aboutme">About</a>
+                        </li>
+                        <li>
+                            <a href="">Services</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bars">
+        <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+    </div>
+
+
+
+    <div class="profile">
+        <div class="main-container">
+            <div class="information">
+                <div class="profile-picture">
+                    <img src="./profile-pics.png" alt="Picture">
+                </div>
+
+                <div class="profile-info">
+                    <h2>Hello Everyone! This is Suriya Akter.I am student of Pundra University of Science &
+                        Technology,Gokul,Bogra.</h2>
+                    <p> I study in Computer Science & Engineering.I am learning everyday many programing language.They
+                        benifits to me.</p>
+                    <button><a
+                        href="./picture-cv.pdf"
+                        download="suraiya_CV"
+                        class="btn d-CV"
+                      >
+                        Download CV <i class="bx bx-download"></i>
+                      </a></button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="about" id="aboutme">
+        <div class="main-container">
+            <div class="about-header">
+                <h2>About Me</h2>
+                <hr>
+                </hr>
+            </div>
+            <div class="info-pic-text">
+                <div class="about-picture">
+                    <img src="./about picture.jpg" alt="">
+                </div>
+                <div class="about-text">
+                    <h3>UX Designer and Web Develpoer</h3>
+                    <p>I am learning to hmlt,css,java script & php.they benifits to me.In the future we laern more this
+                    </p>
+                    <div class="about-btn">
+                        <button class="hire-me">Hire Me</button>
+                        <button>Learn more</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="service" id="serviceme">
+        <div class="main-container">
+            <h2 class="jkl">My Services</h2>
+            <div class="service-design">
+
+                <div class="service-web1">
+                    <div class="web-header">
+                        <div class="web-icon">
+                            <i class="fa fa-2x fa-laptop "></i>
+                        </div>
+                        <h2>Web Design</h2>
+                    </div>
+
+                    <p>we can become aweb designer.that's you can follow this step:
+                        Learn html,understand css,learn the funtion of UX design &understand the basic concept.
+                    </p>
+                </div>
+                <div class="service-web1">
+                    <div class="web-middle">
+                        <div class="web-icon">
+                            <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3 "></i>
+                        </div>
+
+                        <h2>Web Develpoment</h2>
+
+                    </div>
+
+                    <p>we can become a web developer.that's you can follow this step:
+                        Learn html,understand css,learn the funtion of UX design &understand the basic concept.</p>
+                </div>
+                <div class="service-web1">
+                    <div class="web-bottom">
+                        <div class="web-icon">
+                            <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3 "></i>
+                        </div>
+                        <h2>Apps Design</h2>
+                    </div>
+
+                    <p>The step required to make an app are;
+                        Workshop the idea and strategy,design user interface,develop the back in & front in.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="contact-header" id="contactme">
+        <div class="main-container">
+
+
+            <div class="container contact-container">
+                <h1 class="title">Contact Us</h1>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" id="submitBtn">Submit Now</button>
+                </form>
+                <div id="toast" class="toast"></div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <footer>All rights &copy reserved by Suraiya</footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
